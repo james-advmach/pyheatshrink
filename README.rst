@@ -1,7 +1,3 @@
-|buildstatus|_
-|appveyor|_
-|coverage|_
-
 PyHeatshrink
 ============
 
@@ -144,18 +140,10 @@ Running tests is as simple as doing:
 
 .. code-block::
 
-    $ python setup.py test
+    $ python setup.py build_ext -b .
+    $ python -m unittest
 
 License
 -------
 
 ISC license
-
-.. |buildstatus| image:: https://travis-ci.com/eerimoq/pyheatshrink.svg?branch=master
-.. _buildstatus: https://travis-ci.com/eerimoq/pyheatshrink
-
-.. |appveyor| image:: https://ci.appveyor.com/api/projects/status/github/eerimoq/pyheatshrink?svg=true
-.. _appveyor: https://ci.appveyor.com/project/eerimoq/pyheatshrink/branch/master
-
-.. |coverage| image:: https://coveralls.io/repos/github/eerimoq/pyheatshrink/badge.svg?branch=master
-.. _coverage: https://coveralls.io/github/eerimoq/pyheatshrink
